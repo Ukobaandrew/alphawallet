@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "402637192110",
+    "project_id": "alpha-bank-e918c",
+    "storage_bucket": "alpha-bank-e918c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402637192110:android:b7303776395bb4e89d663f",
+        "android_client_info": {
+          "package_name": "com.alphawallet.wallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7RF_9kwP9jrNLcX4WsGaIh0Yb-51hWbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402637192110:android:61bfe191d57364e39d663f",
+        "android_client_info": {
+          "package_name": "com.example.alpha_wallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7RF_9kwP9jrNLcX4WsGaIh0Yb-51hWbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
