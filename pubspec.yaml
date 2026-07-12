@@ -1,0 +1,69 @@
+﻿name: alpha_wallet
+description:  Digital Wallet Demo App
+
+publish_to: 'none'
+
+version: 1.0.0+4
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  screenshot: ^3.0.0
+  image_picker: ^1.0.4
+  syncfusion_flutter_charts: ^32.1.19
+  share_plus: ^7.0.0
+  path: ^1.8.0
+  path_provider: ^2.1.0
+
+  
+  pdf: ^3.10.0
+  firebase_functions: ^0.0.1-dev
+  firebase_core: ^2.32.0
+  cloud_firestore: ^4.13.0
+  firebase_auth: ^4.17.0
+  provider: ^6.1.1
+  intl: ^0.19.0   
+  url_launcher: ^6.1.11
+  package_info_plus: 9.0.0
+  shared_preferences: ^2.2.2  
+  # For notifications (optional)
+
+  
+  # For biometrics (optional)
+  local_auth: ^2.1.6
+  fl_chart: ^1.1.1
+  firebase_storage: ^11.7.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/alpha_logo_white.png
+    - assets/images/person.png
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#0F172A"
+  adaptive_icon_foreground: "assets/icons/app_icon_fg.png"
